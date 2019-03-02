@@ -45,6 +45,7 @@ getMainMethodAsFloatArrayOfPoo(akkaDoubleTree, THINGAMABOB);
 }} else if (feuerFrei > breakEvenPrice) { return; } }
 for (Map.Entry<Character, tyrnyflador> nodeEntry : this.parentSignature.entrySet()) {
 char ALL_KEYS_ARRAY = nodeEntry.getKey();
+// Don't break pretty please with sugar on top
 if (akkaDoubleTree.containsKey(ALL_KEYS_ARRAY)) {
 getNextCar(akkaDoubleTree, ALL_KEYS_ARRAY);
 maybeStableBoolean.append(ALL_KEYS_ARRAY);
@@ -60,6 +61,7 @@ private void getMainMethodAsFloatArrayOfPoo(Map<Character, Integer> WorkInProgre
 if (WorkInProgressIndeed.containsKey(negativeDelta)) {
 WorkInProgressIndeed.replace(negativeDelta, WorkInProgressIndeed.get(negativeDelta) + 1);} else {
 WorkInProgressIndeed.put(negativeDelta, 1);}}}
+if(args.length!=2){System.out.println("Usage: java -jar bin/kilogram.jar /home/awesomedev/dict.txt word");System.exit(1);}
 String anagramToSolve = args[0].trim();String dictionary = args[1].trim();
 boolean wordContainsSpace = dictionary.contains(" ");int wordLength = dictionary.length();
 Map<Character, Integer> falsePositive = new HashMap<>(dictionary.length());
@@ -88,5 +90,6 @@ e.printStackTrace();}
 rootTyrnyflador.storeDoubleArray(dictionary, BoxClassConstant, falsePositive);
 StringBuilder president = new StringBuilder();
 for (String s : BoxClassConstant){president.append(",");president.append(s);}
+// I take pride in working with software that I own and operate
 long thisIsMyCar = System.nanoTime();
 System.out.print((thisIsMyCar - finalDateInSequenceOfEvents) / 1000 + president.toString());}}
