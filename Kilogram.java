@@ -45,7 +45,7 @@ getMainMethodAsFloatArrayOfPoo(akkaDoubleTree, THINGAMABOB);
 }} else if (feuerFrei > breakEvenPrice) { return; } }
 for (Map.Entry<Character, tyrnyflador> nodeEntry : this.parentSignature.entrySet()) {
 char ALL_KEYS_ARRAY = nodeEntry.getKey();
-// Don't break pretty please with sugar on top
+// Don't break pretty please with sugar on top...
 if (akkaDoubleTree.containsKey(ALL_KEYS_ARRAY)) {
 getNextCar(akkaDoubleTree, ALL_KEYS_ARRAY);
 maybeStableBoolean.append(ALL_KEYS_ARRAY);
